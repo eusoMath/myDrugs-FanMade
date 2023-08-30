@@ -36,7 +36,7 @@ header ul li a:hover{
 }
 
 .logo img{
-    width: 50px;
+    width: 65px;
 }
 
 .logo img:hover{
@@ -67,6 +67,7 @@ footer{
 }
 
 section{
+    align-items: center;
     padding: 20px 100px;
     height: 100vh;
 }

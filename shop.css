@@ -14,7 +14,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 50px;
+    padding: 10px 60px;
 }
 
 header ul{
@@ -27,6 +27,7 @@ header ul{
 
 header ul li a{
     color: white;
+    font-size: 20px;
 }
 
 header ul li a:hover{
@@ -35,7 +36,7 @@ header ul li a:hover{
 }
 
 .logo img{
-    width: 50px;
+    width: 65px;
 }
 
 .logo img:hover{
@@ -48,6 +49,10 @@ main{
     background-repeat: no-repeat;
     width: 100%;
     height: 50%;
+}
+
+h1{
+    font-size: 45px;
 }
 
 footer{
