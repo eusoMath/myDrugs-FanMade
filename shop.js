@@ -3,13 +3,17 @@ function showDrug(){
         document.getElementById("drug-information").style.opacity= "100"}
     if(document.getElementById("drug-text").style.opacity= "0"){
         document.getElementById("drug-text").style.opacity= "100"
-    }  
+    }if(document.getElementById("buy-btn").style.opacity= "0"){
+        document.getElementById("buy-btn").style.opacity= "100"
+    }
 }
 function hideDrug(){
     if(document.getElementById("drug-information").style.opacity= "100"){
         document.getElementById("drug-information").style.opacity= "0"}
     if(document.getElementById("drug-text").style.opacity= "100"){
         document.getElementById("drug-text").style.opacity= "0"
+    } if (document.getElementById("buy-btn").style.opacity= "100"){
+        document.getElementById("buy-btn").style.opacity= "0"
     }
 }
 

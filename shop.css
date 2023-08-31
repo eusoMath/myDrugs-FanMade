@@ -117,3 +117,28 @@ section{
     font-family: 'Abel', sans-serif;
     font-weight: 400;
 }
+
+#buy-btn {
+    margin-top: 15px;
+    text-decoration: none;
+   /* padding: 15px 120px; */
+    background: #ffffff;
+    height: 50px;
+    opacity: 0;
+    transition: 500ms;
+}
+
+#buy-btn a{
+    color: #000000;
+    padding: 15px 120px;
+    font-weight: bolder;
+}
+
+#buy-btn:hover{
+    border: solid 1px #ffffff;
+    background: #000000;
+}
+
+#buy-btn a:hover{
+    color: white;
+}
