@@ -113,12 +113,10 @@ form label{
     gap: 10px;
 }
 
-.section-faq{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.section-faq h1, h2, h3, p{
     color: white;
-    gap: 15px;
+    text-align: left;
+    margin-top: 15px;
 }
 
 .container-safety{
@@ -130,6 +128,8 @@ form label{
     align-self: center;
     align-items: center;
     padding: 20px 20px;
+    margin: auto;
+    margin-top: 35px;
 }
 
 .container-img img{
