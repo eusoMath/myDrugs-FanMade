@@ -80,7 +80,7 @@ form{
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
+    align-items: center;
 }
 
 form label{
@@ -152,4 +152,5 @@ form label{
 .register{
     display: flex;
     flex-direction: column;
+    margin-right: 240px;
 }
