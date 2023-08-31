@@ -80,7 +80,7 @@ form{
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /*align-items: center;*/
 }
 
 form label{
@@ -110,7 +110,11 @@ form label{
 
 .register{
     display: flex;
-    gap: 10px;
+    gap: 5px;
+}
+
+.register p{
+    color: #000000  ;
 }
 
 .section-faq h1, h2, h3, p{
@@ -135,4 +139,17 @@ form label{
 .container-img img{
     width: 250px;
     filter: invert(1);
+}
+
+.username p{
+    color: #000000;
+}
+
+.password p{
+    color: #000000;
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
 }
